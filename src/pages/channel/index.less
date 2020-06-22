@@ -1,0 +1,69 @@
+@import '~antd/es/style/themes/default.less';
+
+.main {
+  width: 100%;
+  background: @component-background;
+}
+
+.detail{
+  .ant-row{
+    margin-bottom: 25px;
+  }
+  .ant-col{
+    display: flex;
+    span:nth-child(1){
+      width: 100px;
+      text-align: right;
+      margin-right: 15px;
+    }
+  }
+}
+.card .ant-upload.ant-upload-select-picture-card{
+  width: 380px !important;
+  height: 180px !important;
+}
+.card .ant-upload.ant-upload-select-picture-card img{
+  width: 100%;
+  height: 180px;
+}
+.record{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.channel{
+  width: 360px;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  margin:0 20px 20px 0;
+  .tit{
+    line-height: 50px;
+    background: #f0f0f0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .cont{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dedede;
+    .des{
+      margin-bottom: 20px;
+    }
+    .total{
+      color: #1890ff;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }    
+  }
+  .bot{
+    color: #8C8C8C;
+    line-height: 40px;
+    padding-left: 20px;
+  }
+}
